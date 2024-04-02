@@ -1,0 +1,65 @@
+body {
+    background-color: #ececec;
+    margin: 5% 35%;
+}
+
+.calculator {
+    width: 22rem;
+    height: 22rem;
+    display: grid;
+
+    border-radius: 20px;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: 80px auto auto auto auto;
+    row-gap: 5px;
+    column-gap: 5px;
+    padding: 10px;
+}
+
+#textArea {
+    grid-column: 1/span 4;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5rem;
+    padding: 0 10px;
+    text-align: end;
+    color: white;
+    background-color: #1D1D1D;
+    border-radius: 5px;
+}
+
+.item {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2rem;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: color-mix(in srgb, #D1D0D0 25%, #1D1D1D 75%);
+}
+
+.item2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2rem;
+    grid-column: 1/span 4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(41, 143, 190);
+}
+
+.item1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2rem;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: white;
+}
+
+.item:hover,
+.item1:hover,
+.item2:hover {
+    box-shadow: 0 3px 3px #a0a8a9;
+}

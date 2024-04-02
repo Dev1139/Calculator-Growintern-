@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+      <div class="calculator">
+      <input type="text" name="textArea" id="textArea" />
+      <button class="item" type="button" onclick="displayText('7')">7</button>
+      <button class="item" type="button" onclick="displayText('8')">8</button>
+      <button class="item" type="button" onclick="displayText('9')">9</button>
+      <button class="item1" type="button" onclick="displayText('/')">/</button>
+      <button class="item" type="button" onclick="displayText('4')">4</button>
+      <button class="item" type="button" onclick="displayText('5')">5</button>
+      <button class="item" type="button" onclick="displayText('6')">6</button>
+      <button class="item1" type="button" onclick="displayText('-')">-</button>
+      <button class="item" type="button" onclick="displayText('1')">1</button>
+      <button class="item" type="button" onclick="displayText('2')">2</button>
+      <button class="item" type="button" onclick="displayText('3')">3</button>
+      <button class="item1" type="button" onclick="displayText('+')">+</button>
+      <button
+        class="item"
+        type="button"
+        onclick="clearText()"
+        style="background-color: rgb(215, 7, 7)"
+      >
+        AC
+      </button>
+      <button class="item" type="button" onclick="displayText('0')">0</button>
+      <button class="item" type="button" onclick="displayText('.')">.</button>
+      <button class="item1" type="button" onclick="displayText('*')">*</button>
+      <button class="item2" type="button" onclick="calculation()">=</button>
+    </div>
+  </body>
+</html>
